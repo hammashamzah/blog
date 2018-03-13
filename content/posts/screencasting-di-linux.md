@@ -1,7 +1,6 @@
 ---
 title: "Screencasting Di Linux"
 date: 2018-03-13T01:54:13+01:00
-draft: true
 ---
 
 Screencasting di Linux
