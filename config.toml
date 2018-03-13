@@ -1,4 +1,53 @@
-baseURL = "https://hammashamzah.com/"
-languageCode = "en-us"
+baseurl = "https://hammashamzah.com"
+DefaultContentLanguage = "en"
 title = "Hammas Hamzah's Blog"
-theme = "hemingway2"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+#pygmentsStyle = "trac"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+disqusShortname = "hammashamzah"
+googleAnalytics = "UA-115647532-1"
+
+[Params]
+  subtitle = "Some things are better left written"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = true
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Hammas Hamzah Kuddah"
+  website = "hammashamzah.com"
+  email = "hammas.hamzah@gmail.com"
+  github = "hammashamzah"
+  linkedin = "hammashamzah"
+
+
+[[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 2
