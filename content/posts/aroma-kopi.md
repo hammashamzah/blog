@@ -1,7 +1,7 @@
 +++
 title = "Aroma Kopi"
 date = 2018-03-13T02:42:40+01:00
-tags = [journal]
+tags = ["journal"]
 categories = []
 +++
 
