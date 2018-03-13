@@ -1,53 +1,25 @@
-baseurl = "https://hammashamzah.com"
-DefaultContentLanguage = "en"
+baseurl = "https://www.example.org/"
 title = "Hammas Hamzah's Blog"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-#pygmentsStyle = "trac"
-#pygmentsUseClasses = true
-#pygmentsCodeFences = true
-#pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
+copyright = "Copyright &copy; 2017 - Hammas Hamzah Kuddah"
+canonifyurls = true
+
+theme = "kiera"
+
 disqusShortname = "hammashamzah"
 googleAnalytics = "UA-115647532-1"
 
-[Params]
-  subtitle = "Some things are better left written"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = true
-  rss = true
-  comments = true
-  readingTime = true
-  useHLJS = true
+paginate = 3
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
 
-[Author]
+[author]
   name = "Hammas Hamzah Kuddah"
-  website = "hammashamzah.com"
   email = "hammas.hamzah@gmail.com"
   github = "hammashamzah"
   linkedin = "hammashamzah"
+  twitter = "hammashamzah"
 
-
-[[menu.main]]
-    name = "Posts"
-    url = "posts/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "about"
-    weight = 2
+[params]
+    tagline = "Some things are better left written"
