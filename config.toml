@@ -22,4 +22,4 @@ pygmentsCodeFences = true
   twitter = "hammashamzah"
 
 [params]
-    tagline = "Some things are better left written"
+    description = "Some things are better left written"
